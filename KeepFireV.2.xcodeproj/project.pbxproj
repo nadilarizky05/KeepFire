@@ -6,11 +6,67 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2EA8E4AD3004F7500053FA40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4AB3004F7500053FA40 /* ContentView.swift */; };
+		2EA8E4B23005B4800053FA40 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4B03005B47E0053FA40 /* Models.swift */; };
+		2EA8E4B53005B4990053FA40 /* RepositoryProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4B33005B4980053FA40 /* RepositoryProtocols.swift */; };
+		2EA8E4B83005B4C00053FA40 /* CoreDataDreamRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4B63005B4BE0053FA40 /* CoreDataDreamRepository.swift */; };
+		2EA8E4BA3005B4D90053FA40 /* RealmChatRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4B93005B4D80053FA40 /* RealmChatRepository.swift */; };
+		2EA8E4BF3005B5030053FA40 /* DreamViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4BD3005B5020053FA40 /* DreamViewModels.swift */; };
+		2EA8E4C13005B5370053FA40 /* ChatViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4C03005B5370053FA40 /* ChatViews.swift */; };
+		2EA8E5003006275D0053FA40 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 2EA8E4FF3006275D0053FA40 /* RxRelay */; };
+		2EA8E5023006275D0053FA40 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2EA8E5013006275D0053FA40 /* RxSwift */; };
+		2EA8E505300627B20053FA40 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2EA8E504300627B20053FA40 /* RealmSwift */; };
+		2EA8E51B30064B330053FA40 /* DreamViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E51A30064B320053FA40 /* DreamViews.swift */; };
+		2EA8E51D30064B490053FA40 /* ChatViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E51C30064B480053FA40 /* ChatViewModels.swift */; };
+		2EA8E52730064CAD0053FA40 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 2EA8E52630064CAD0053FA40 /* RxRelay */; };
+		2EA8E52C300652860053FA40 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 2EA8E504300627B20053FA40 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EA8E50E300628920053FA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ED51D392F61114400D96F15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ED51D402F61114400D96F15;
+			remoteInfo = KeepFireV.2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EA8E52D300652860053FA40 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2EA8E52C300652860053FA40 /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2EA8E4AB3004F7500053FA40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2EA8E4B03005B47E0053FA40 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		2EA8E4B33005B4980053FA40 /* RepositoryProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryProtocols.swift; sourceTree = "<group>"; };
+		2EA8E4B63005B4BE0053FA40 /* CoreDataDreamRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDreamRepository.swift; sourceTree = "<group>"; };
+		2EA8E4B93005B4D80053FA40 /* RealmChatRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmChatRepository.swift; sourceTree = "<group>"; };
+		2EA8E4BD3005B5020053FA40 /* DreamViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamViewModels.swift; sourceTree = "<group>"; };
+		2EA8E4C03005B5370053FA40 /* ChatViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViews.swift; sourceTree = "<group>"; };
+		2EA8E50A300628920053FA40 /* KeepFireV.2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepFireV.2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA8E51A30064B320053FA40 /* DreamViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamViews.swift; sourceTree = "<group>"; };
+		2EA8E51C30064B480053FA40 /* ChatViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModels.swift; sourceTree = "<group>"; };
 		2ED51D412F61114400D96F15 /* KeepFireV.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepFireV.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		2EA8E50B300628920053FA40 /* KeepFireV.2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KeepFireV.2Tests;
+			sourceTree = "<group>";
+		};
 		2ED51D432F61114400D96F15 /* KeepFireV.2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = KeepFireV.2;
@@ -19,20 +75,105 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2EA8E507300628920053FA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA8E52730064CAD0053FA40 /* RxRelay in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2ED51D3E2F61114400D96F15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA8E505300627B20053FA40 /* RealmSwift in Frameworks */,
+				2EA8E5023006275D0053FA40 /* RxSwift in Frameworks */,
+				2EA8E5003006275D0053FA40 /* RxRelay in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EA8E52530064CAD0053FA40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EA8E52E3006562F0053FA40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2EA8E4B03005B47E0053FA40 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2EA8E52F3006563D0053FA40 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2EA8E51C30064B480053FA40 /* ChatViewModels.swift */,
+				2EA8E4BD3005B5020053FA40 /* DreamViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2EA8E530300656490053FA40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2EA8E4AB3004F7500053FA40 /* ContentView.swift */,
+				2EA8E4C03005B5370053FA40 /* ChatViews.swift */,
+				2EA8E51A30064B320053FA40 /* DreamViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2EA8E531300656520053FA40 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				2EA8E4B33005B4980053FA40 /* RepositoryProtocols.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		2EA8E5323006565D0053FA40 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				2EA8E534300656720053FA40 /* Realm */,
+				2EA8E533300656690053FA40 /* CoreData */,
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+		2EA8E533300656690053FA40 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2EA8E4B63005B4BE0053FA40 /* CoreDataDreamRepository.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		2EA8E534300656720053FA40 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				2EA8E4B93005B4D80053FA40 /* RealmChatRepository.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
 		2ED51D382F61114400D96F15 = {
 			isa = PBXGroup;
 			children = (
+				2EA8E5323006565D0053FA40 /* Persistance */,
+				2EA8E531300656520053FA40 /* Repositories */,
+				2EA8E530300656490053FA40 /* Views */,
+				2EA8E52F3006563D0053FA40 /* ViewModels */,
+				2EA8E52E3006562F0053FA40 /* Models */,
 				2ED51D432F61114400D96F15 /* KeepFireV.2 */,
+				2EA8E50B300628920053FA40 /* KeepFireV.2Tests */,
+				2EA8E52530064CAD0053FA40 /* Frameworks */,
 				2ED51D422F61114400D96F15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				2ED51D412F61114400D96F15 /* KeepFireV.2.app */,
+				2EA8E50A300628920053FA40 /* KeepFireV.2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +190,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2EA8E509300628920053FA40 /* KeepFireV.2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA8E510300628920053FA40 /* Build configuration list for PBXNativeTarget "KeepFireV.2Tests" */;
+			buildPhases = (
+				2EA8E506300628920053FA40 /* Sources */,
+				2EA8E507300628920053FA40 /* Frameworks */,
+				2EA8E508300628920053FA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EA8E50F300628920053FA40 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2EA8E50B300628920053FA40 /* KeepFireV.2Tests */,
+			);
+			name = KeepFireV.2Tests;
+			packageProductDependencies = (
+				2EA8E52630064CAD0053FA40 /* RxRelay */,
+			);
+			productName = KeepFireV.2Tests;
+			productReference = 2EA8E50A300628920053FA40 /* KeepFireV.2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2ED51D402F61114400D96F15 /* KeepFireV.2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2ED51D4C2F61114500D96F15 /* Build configuration list for PBXNativeTarget "KeepFireV.2" */;
@@ -55,6 +221,7 @@
 				2ED51D3D2F61114400D96F15 /* Sources */,
 				2ED51D3E2F61114400D96F15 /* Frameworks */,
 				2ED51D3F2F61114400D96F15 /* Resources */,
+				2EA8E52D300652860053FA40 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -65,6 +232,9 @@
 			);
 			name = KeepFireV.2;
 			packageProductDependencies = (
+				2EA8E4FF3006275D0053FA40 /* RxRelay */,
+				2EA8E5013006275D0053FA40 /* RxSwift */,
+				2EA8E504300627B20053FA40 /* RealmSwift */,
 			);
 			productName = KeepFireV.2;
 			productReference = 2ED51D412F61114400D96F15 /* KeepFireV.2.app */;
@@ -77,9 +247,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2630;
-				LastUpgradeCheck = 2630;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
 				TargetAttributes = {
+					2EA8E509300628920053FA40 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 2ED51D402F61114400D96F15;
+					};
 					2ED51D402F61114400D96F15 = {
 						CreatedOnToolsVersion = 26.3;
 					};
@@ -94,17 +268,29 @@
 			);
 			mainGroup = 2ED51D382F61114400D96F15;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2EA8E4FE3006275D0053FA40 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				2EA8E503300627B20053FA40 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2ED51D422F61114400D96F15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2ED51D402F61114400D96F15 /* KeepFireV.2 */,
+				2EA8E509300628920053FA40 /* KeepFireV.2Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2EA8E508300628920053FA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2ED51D3F2F61114400D96F15 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,16 +301,84 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2ED51D3D2F61114400D96F15 /* Sources */ = {
+		2EA8E506300628920053FA40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2ED51D3D2F61114400D96F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA8E4BF3005B5030053FA40 /* DreamViewModels.swift in Sources */,
+				2EA8E4B23005B4800053FA40 /* Models.swift in Sources */,
+				2EA8E4B53005B4990053FA40 /* RepositoryProtocols.swift in Sources */,
+				2EA8E4AD3004F7500053FA40 /* ContentView.swift in Sources */,
+				2EA8E4C13005B5370053FA40 /* ChatViews.swift in Sources */,
+				2EA8E4BA3005B4D90053FA40 /* RealmChatRepository.swift in Sources */,
+				2EA8E51D30064B490053FA40 /* ChatViewModels.swift in Sources */,
+				2EA8E51B30064B330053FA40 /* DreamViews.swift in Sources */,
+				2EA8E4B83005B4C00053FA40 /* CoreDataDreamRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2EA8E50F300628920053FA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ED51D402F61114400D96F15 /* KeepFireV.2 */;
+			targetProxy = 2EA8E50E300628920053FA40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2EA8E511300628920053FA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RL4D4674QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dila.KeepFireV-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeepFireV.2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KeepFireV.2";
+			};
+			name = Debug;
+		};
+		2EA8E512300628920053FA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RL4D4674QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dila.KeepFireV-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeepFireV.2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KeepFireV.2";
+			};
+			name = Release;
+		};
 		2ED51D4A2F61114500D96F15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -184,6 +438,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -241,6 +496,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -270,7 +526,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -302,7 +558,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,6 +569,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2EA8E510300628920053FA40 /* Build configuration list for PBXNativeTarget "KeepFireV.2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA8E511300628920053FA40 /* Debug */,
+				2EA8E512300628920053FA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2ED51D3C2F61114400D96F15 /* Build configuration list for PBXProject "KeepFireV.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -332,6 +597,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2EA8E4FE3006275D0053FA40 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.10.2;
+			};
+		};
+		2EA8E503300627B20053FA40 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = community;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2EA8E4FF3006275D0053FA40 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EA8E4FE3006275D0053FA40 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		2EA8E5013006275D0053FA40 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EA8E4FE3006275D0053FA40 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		2EA8E504300627B20053FA40 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EA8E503300627B20053FA40 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		2EA8E52630064CAD0053FA40 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EA8E4FE3006275D0053FA40 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2ED51D392F61114400D96F15 /* Project object */;
 }

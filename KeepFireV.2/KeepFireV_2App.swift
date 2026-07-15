@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct KeepFireV_2App: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+    private let container = DependencyContainer()
+     
+        var body: some Scene {
+            WindowGroup {
+                ContentView(container: container)
+            }
         }
-    }
 }

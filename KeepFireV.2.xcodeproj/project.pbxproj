@@ -7,18 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2EA8E4AD3004F7500053FA40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4AB3004F7500053FA40 /* ContentView.swift */; };
-		2EA8E4B23005B4800053FA40 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4B03005B47E0053FA40 /* Models.swift */; };
-		2EA8E4B53005B4990053FA40 /* RepositoryProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4B33005B4980053FA40 /* RepositoryProtocols.swift */; };
-		2EA8E4B83005B4C00053FA40 /* CoreDataDreamRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4B63005B4BE0053FA40 /* CoreDataDreamRepository.swift */; };
-		2EA8E4BA3005B4D90053FA40 /* RealmChatRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4B93005B4D80053FA40 /* RealmChatRepository.swift */; };
-		2EA8E4BF3005B5030053FA40 /* DreamViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4BD3005B5020053FA40 /* DreamViewModels.swift */; };
-		2EA8E4C13005B5370053FA40 /* ChatViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E4C03005B5370053FA40 /* ChatViews.swift */; };
 		2EA8E5003006275D0053FA40 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 2EA8E4FF3006275D0053FA40 /* RxRelay */; };
 		2EA8E5023006275D0053FA40 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2EA8E5013006275D0053FA40 /* RxSwift */; };
 		2EA8E505300627B20053FA40 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2EA8E504300627B20053FA40 /* RealmSwift */; };
-		2EA8E51B30064B330053FA40 /* DreamViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E51A30064B320053FA40 /* DreamViews.swift */; };
-		2EA8E51D30064B490053FA40 /* ChatViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA8E51C30064B480053FA40 /* ChatViewModels.swift */; };
 		2EA8E52730064CAD0053FA40 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 2EA8E52630064CAD0053FA40 /* RxRelay */; };
 		2EA8E52C300652860053FA40 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 2EA8E504300627B20053FA40 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -48,16 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2EA8E4AB3004F7500053FA40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2EA8E4B03005B47E0053FA40 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		2EA8E4B33005B4980053FA40 /* RepositoryProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryProtocols.swift; sourceTree = "<group>"; };
-		2EA8E4B63005B4BE0053FA40 /* CoreDataDreamRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDreamRepository.swift; sourceTree = "<group>"; };
-		2EA8E4B93005B4D80053FA40 /* RealmChatRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmChatRepository.swift; sourceTree = "<group>"; };
-		2EA8E4BD3005B5020053FA40 /* DreamViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamViewModels.swift; sourceTree = "<group>"; };
-		2EA8E4C03005B5370053FA40 /* ChatViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViews.swift; sourceTree = "<group>"; };
 		2EA8E50A300628920053FA40 /* KeepFireV.2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepFireV.2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EA8E51A30064B320053FA40 /* DreamViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamViews.swift; sourceTree = "<group>"; };
-		2EA8E51C30064B480053FA40 /* ChatViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModels.swift; sourceTree = "<group>"; };
 		2ED51D412F61114400D96F15 /* KeepFireV.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepFireV.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,74 +85,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2EA8E52E3006562F0053FA40 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				2EA8E4B03005B47E0053FA40 /* Models.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		2EA8E52F3006563D0053FA40 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				2EA8E51C30064B480053FA40 /* ChatViewModels.swift */,
-				2EA8E4BD3005B5020053FA40 /* DreamViewModels.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		2EA8E530300656490053FA40 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				2EA8E4AB3004F7500053FA40 /* ContentView.swift */,
-				2EA8E4C03005B5370053FA40 /* ChatViews.swift */,
-				2EA8E51A30064B320053FA40 /* DreamViews.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		2EA8E531300656520053FA40 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-				2EA8E4B33005B4980053FA40 /* RepositoryProtocols.swift */,
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		2EA8E5323006565D0053FA40 /* Persistance */ = {
-			isa = PBXGroup;
-			children = (
-				2EA8E534300656720053FA40 /* Realm */,
-				2EA8E533300656690053FA40 /* CoreData */,
-			);
-			path = Persistance;
-			sourceTree = "<group>";
-		};
-		2EA8E533300656690053FA40 /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				2EA8E4B63005B4BE0053FA40 /* CoreDataDreamRepository.swift */,
-			);
-			path = CoreData;
-			sourceTree = "<group>";
-		};
-		2EA8E534300656720053FA40 /* Realm */ = {
-			isa = PBXGroup;
-			children = (
-				2EA8E4B93005B4D80053FA40 /* RealmChatRepository.swift */,
-			);
-			path = Realm;
-			sourceTree = "<group>";
-		};
 		2ED51D382F61114400D96F15 = {
 			isa = PBXGroup;
 			children = (
-				2EA8E5323006565D0053FA40 /* Persistance */,
-				2EA8E531300656520053FA40 /* Repositories */,
-				2EA8E530300656490053FA40 /* Views */,
-				2EA8E52F3006563D0053FA40 /* ViewModels */,
-				2EA8E52E3006562F0053FA40 /* Models */,
 				2ED51D432F61114400D96F15 /* KeepFireV.2 */,
 				2EA8E50B300628920053FA40 /* KeepFireV.2Tests */,
 				2EA8E52530064CAD0053FA40 /* Frameworks */,
@@ -312,15 +229,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EA8E4BF3005B5030053FA40 /* DreamViewModels.swift in Sources */,
-				2EA8E4B23005B4800053FA40 /* Models.swift in Sources */,
-				2EA8E4B53005B4990053FA40 /* RepositoryProtocols.swift in Sources */,
-				2EA8E4AD3004F7500053FA40 /* ContentView.swift in Sources */,
-				2EA8E4C13005B5370053FA40 /* ChatViews.swift in Sources */,
-				2EA8E4BA3005B4D90053FA40 /* RealmChatRepository.swift in Sources */,
-				2EA8E51D30064B490053FA40 /* ChatViewModels.swift in Sources */,
-				2EA8E51B30064B330053FA40 /* DreamViews.swift in Sources */,
-				2EA8E4B83005B4C00053FA40 /* CoreDataDreamRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

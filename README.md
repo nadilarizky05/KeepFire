@@ -15,10 +15,11 @@ and reach out to the people chasing similar ones.
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/all-fire.png" width="200"/>
-  <img src="screenshots/my-fire.png" width="200"/>
-  <img src="screenshots/add-fire.png" width="200"/>
-  <img src="screenshots/let-me-cook.png" width="200"/>
+  <img src="all-fire.png" width="150"/>
+  <img src="my-fire.png" width="150"/>
+  <img src="add-fire.png" width="150"/>
+  <img src="let-me-cook0.png" width="150"/>
+  <img src="let-me-cook1.png" width="150"/>
 </p>
 
 | All Fire | My Fire | Add Fire | Let Me Cook |

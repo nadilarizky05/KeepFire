@@ -1,7 +1,7 @@
 # KeepFire 🔥
 
 KeepFire is a space to realize that you are never alone in pursuing your ambitions.
-Whether it's a dream, a goal, or a life plan — this app connects your inner spirit
+Whether it's a dream, a goal, or a life plan. This app connects your inner spirit
 with the world by letting you share your dream, discover other people's dreams,
 and reach out to the people chasing similar ones.
 

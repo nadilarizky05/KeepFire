@@ -56,10 +56,10 @@ KeepFireV.2Tests/
 ## Getting started
 
 1. Clone this repo and open `KeepFireV.2.xcodeproj` in Xcode.
-2. Make sure the Swift Package dependencies (RealmSwift, RxSwift, RxRelay) are resolved — Xcode should do this automatically on first open. If not: *File → Packages → Resolve Package Versions*.
+2. Make sure the Swift Package dependencies (RealmSwift, RxSwift, RxRelay) are resolved, Xcode should do this automatically on first open. If not: *File → Packages → Resolve Package Versions*.
 3. Build & run on a simulator or device (⌘R).
 4. Run the test suite with ⌘U.
 
 ## Author
 
-Made by [Nadila Rizky Amelia](https://github.com/nadilarizky05) — Learner at Apple Developer Academy Bali, Programming Teacher at Timedoor Academy.
+Made by [Nadila Rizky Amelia](https://github.com/nadilarizky05) (Learner at Apple Developer Academy Bali, Programming Teacher at Timedoor Academy.)
